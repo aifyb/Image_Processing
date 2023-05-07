@@ -4,7 +4,7 @@
 
 图像上在某点沿着各个方向灰度值明显变化时，该点大概率被认为是角点。为了提高可靠性，从图像局部的小窗口观察图像特征，该窗口向任意方向的移动都导致图像灰度的明显变化，则认为此处为角点。
 
-<img src="harris/image-20230402170955312.png" style="zoom:50%;" aligend="middle" />
+<img src="https://image.aifyb.tech/image_processing/image-20230402170955312.png" style="zoom:50%;" aligend="middle" />
 
 ## 数学表达
 
@@ -116,7 +116,7 @@ $$
 
 - $\lambda_1$ 和 $\lambda_2$ 都很大，即椭圆的长短轴都很小且相近，代表两个（多个）方向的像素值变化都很缓快，说明窗口内包含角点；
 
-  <img src="harris/image-20230402200423893.png" aligen="middle"/>
+  <img src="https://image.aifyb.tech/image_processing/image-20230402200423893.png" aligen="middle"/>
 
 为了体现 $\lambda_1$ 和 $\lambda_2$ 都很大，从而判断窗口内是否有角点，我们定义角点响应函数 $R$ ：
 $$
